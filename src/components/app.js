@@ -68,7 +68,6 @@ function reducer(state, action) {
     case "restart":
       return { ...initialState, questions: state.questions, status: "ready" };
     // return {
-    //   ...state,
     //   points: 0,
     //   highscore: 0,
     //   index: 0,
